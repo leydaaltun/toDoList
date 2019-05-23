@@ -1,0 +1,66 @@
+﻿body {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background: #5c76e4;
+  align-items: center;
+  justify-content: center;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  background: white;
+  box-shadow: 0 3.88449px 22.3358px rgba(0, 0, 0, .16);
+  border-radius: 12px;
+  padding: 28px 0 0;
+  box-sizing: border-box;
+}
+.container h1 {
+  font-size: 22px;
+  font-weight: 500;
+  color: #3c3737;
+  padding: 0 28px;
+}
+.todo-list {
+  margin-top: 28px;
+  padding: 0 28px;
+}
+.todo {
+  font-size: 16px;
+  padding: 8px 0;
+  color: #2b1f1f;
+  background: white;
+  box-shadow: 0 1.88449px 8px rgba(166, 158, 199, 0.26);
+  box-sizing: border-box;
+  padding: 16px 20px;
+  border-radius: 5px;
+  margin-bottom: 12px;
+  border: 1px solid #e7d5ff;
+  cursor: pointer;
+}
+.todo.done {
+  text-decoration: line-through;
+  color: lightgray;
+  box-shadow: none;
+  border: 1px solid #dedede;
+}
+form {
+  margin-top: auto;
+  width: 100%;
+}
+input {
+  width: 100%;
+  border: none;
+  background: #e6def1;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  height: 60px;
+  box-sizing: border-box;
+  padding: 0 28px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  outline: none;
+}
